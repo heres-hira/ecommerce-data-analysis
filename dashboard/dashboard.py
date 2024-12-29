@@ -83,7 +83,7 @@ def create_rfm_df(df):
 
     return rfm_df
 
-ecom_df = pd.read_csv("ecommerce_data.csv.gz")
+ecom_df = pd.read_csv("ecommerce-data-analysis/dashboard/ecommerce_data.csv.gz")
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
 ecom_df.sort_values(by="order_purchase_timestamp", inplace=True)
@@ -98,7 +98,7 @@ max_date = ecom_df["order_purchase_timestamp"].max()
 
 with st.sidebar:
     # add company logo
-    st.image("logo.png")
+    st.image("ecommerce-data-analysis/dashboard/logo.png")
 
     # extract start_date and end_date from date_input
     start_date, end_date = st.date_input(
