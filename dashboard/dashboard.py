@@ -83,7 +83,7 @@ def create_rfm_df(df):
 
     return rfm_df
 
-ecom_df = pd.read_csv("ecommerce_data.csv")
+ecom_df = pd.read_csv("ecommerce_data.csv.gz")
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
 ecom_df.sort_values(by="order_purchase_timestamp", inplace=True)
