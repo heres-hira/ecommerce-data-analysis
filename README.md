@@ -80,9 +80,6 @@ The dataset consists of several interconnected dataframes, each containing infor
    ```
 3. Run the Jupyter Notebook or Python scripts to view the analysis and visualizations.
 
-## Streamlit Demo
-This project also showcases a Streamlit app. The live demo could be viewed here: [Streamlit Demo](https://dashboard-ecommerce-analysis.streamlit.app/)
-
 ## Author
 Hanifa Mahira
 **Contact:** hanifamahira.hm@gmail.com | www.linkedin.com/hanifa-mahira
